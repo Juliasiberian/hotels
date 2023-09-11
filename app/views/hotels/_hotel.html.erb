@@ -18,5 +18,11 @@
     <strong>City:</strong>
     <%= hotel.city %>
   </p>
+
+  <p>
+    <strong>Dirty:</strong>
+    <%= Dirty.new(hotel.city).call %>
+  </p>
+
   
 </div>
